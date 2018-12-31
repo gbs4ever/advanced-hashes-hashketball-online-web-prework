@@ -149,8 +149,8 @@ def player_numbers(team_name)
   array=[]
   game_hash.each do |location, team_data|
     if team_data[:team_name]  ==  team_name
-  team_data[:players].each do |players, name|
-    array<<name[:number]
+  team_data[:players].each do |players,name|
+    array << name[:number]
       end
       end
 return array
