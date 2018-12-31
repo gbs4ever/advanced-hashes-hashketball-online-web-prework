@@ -162,8 +162,9 @@ end
 
    team_data[:players].each do |players, name|
    if players == player
-     binding.pry
+    return name
  end
 end
 end
+
 end
