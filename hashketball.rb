@@ -133,17 +133,18 @@ end
 
 def team_colors(team)
   game_hash.each do | team, team_data|
-    binding.pry
+  colors  =team_data[:colors]
 if team_data[:team_name] == team
-return team_data[:colors]
+return colors
 end
   end
 end
 
 def team_names
-game_hash.map do | team, team_data|
+game_hash.each do | team, team_data|
   binding.pry
-  team_data.map  do |team_name|
+  team_data.each  do |team_name|
+    team name
 end
 end
 end
