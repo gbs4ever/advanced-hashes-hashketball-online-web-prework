@@ -133,9 +133,9 @@ end
 
 def team_colors(team)
   game_hash.each do | team, team_data|
-  colors =team_data[:colors]
+
 if team_data[:team_name]==team
-return colors
+return team_data[:team_name]
 end
   end
 end
