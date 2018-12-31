@@ -139,7 +139,7 @@ end
   end
 end
 
-def team_names (team)
+def team_names 
 game_hash.each do | team, team_data|
   team_data.map  do |team_name|
 end
