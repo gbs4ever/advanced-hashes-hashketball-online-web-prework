@@ -139,10 +139,13 @@ end
 end
 
 def team_names
+  array= []
 game_hash.each do |team,team_data|
 
-  team_data.each  do |team_name|
+  array<< team_data[:team_name]
   binding.pry
 end
-end
+return array
+
+
 end
