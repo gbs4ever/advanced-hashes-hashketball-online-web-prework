@@ -173,7 +173,8 @@ def big_shoe_rebounds
 
   team_data[:players].each do |players, name|
 
-  name[:shoe].each  do  |stats|
+  name[:shoe]
+  #.each  do  |stats|
     binding.pry
 end
 end
