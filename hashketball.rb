@@ -156,7 +156,7 @@ array<< name[:number]
 end
 return array
 end
- def player_stats()
+ def player_stats(player)
    game_hash.each do |location, team_data|
    #binding.pry
 
