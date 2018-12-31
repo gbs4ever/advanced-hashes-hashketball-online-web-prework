@@ -145,7 +145,7 @@ array<< team_data[:team_name]
 end
 return array
 end
-def player_numbers (team_name)
+def player_numbers(team_name)
   array=[]
   game_hash.each do |location, team_data|
     if team_data[:team_name]  ==  team_name
