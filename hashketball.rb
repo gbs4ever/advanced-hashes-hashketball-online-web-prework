@@ -172,10 +172,10 @@ def big_shoe_rebounds
   #binding.pry
   team_data[:players].each do |players, name|
 
-name[:shoe].each  do  |stats|
-if    stats == 19
+if name[:shoe]   == 19
+
 return name[:rebounds]
-end
+
 end
 end
 end
