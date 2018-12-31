@@ -171,6 +171,7 @@ def big_shoe_rebounds
   game_hash.each do |location, team_data|
   #binding.pry
   team_data[:players].each do |players, name|
+
 name[:shoe].each  do  |stats|
 if    stats == 19
 return name[:rebounds]
