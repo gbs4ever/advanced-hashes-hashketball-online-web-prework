@@ -142,5 +142,6 @@ end
 def team_names (team)
 game_hash.each do | team, team_data|
   team_data.map  do |team_name|
-
+end
+end
 end
