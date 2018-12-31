@@ -148,6 +148,6 @@ end
 def player_numbers (team_name)
   araay=[]
 game_hash.each do |location, team_data|
-team_data[:players].each do |players, name|  
+team_data[:players].each do |players, name|
   binding.pry
 end
