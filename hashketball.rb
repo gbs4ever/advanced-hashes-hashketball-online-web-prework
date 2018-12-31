@@ -176,7 +176,7 @@ def big_shoe_rebounds
   name[:shoe]
   #.each  do  |stats|
     binding.pry
-end
+#end
 end
 end
 end
