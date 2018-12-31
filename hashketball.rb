@@ -147,9 +147,11 @@ return array
 end
 def player_numbers (team_name)
   array=[]
-game_hash.each do |location, team_data|
- if team_data[:team_name] == team_name
-team_data[:players].each do |players, name|
+  game_hash.each do |location, team_data|
+  team_data[:players].each do |players, name|
+    binding.pry
+  if players == player
+  return name[:points]
   array<<name[:number]
 end
 end
