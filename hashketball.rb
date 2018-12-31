@@ -141,9 +141,13 @@ end
 def team_names
   array= []
 game_hash.each do |team,team_data|
-
-  array<< team_data[:team_name]
-
+array<< team_data[:team_name]
 end
 return array
+end
+def player_numbers (team_name)
+  araay=[]
+game_hash.each do |location, team_data|
+team_data[:players].each do |players, name|  
+  binding.pry
 end
