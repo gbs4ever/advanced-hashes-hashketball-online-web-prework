@@ -164,12 +164,3 @@ end
    if players == player
      binding.pry
  end
-
-
-
-
-
-
-
-
-
