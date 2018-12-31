@@ -151,7 +151,6 @@ def player_numbers(team_name)
     if team_data[:team_name]  ==  team_name
   team_data[:players].each do |players,name|
 array<< name[:number]
-binding.pry
 
       end
       end
