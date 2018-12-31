@@ -151,9 +151,25 @@ def player_numbers(team_name)
     if team_data[:team_name]  ==  team_name
   team_data[:players].each do |players,name|
 array<< name[:number]
-
-      end
+  end
       end
 end
 return array
 end
+ def player_stats()
+   game_hash.each do |location, team_data|
+   #binding.pry
+
+   team_data[:players].each do |players, name|
+   if players == player
+     binding.pry
+ end
+
+
+
+
+
+
+
+
+
